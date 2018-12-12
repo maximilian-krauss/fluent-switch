@@ -1,0 +1,25 @@
+{
+  "name": "fluent-switch",
+  "version": "0.0.1",
+  "description": "Switch reloaded",
+  "main": "index.js",
+  "keywords": [
+    "switch",
+    "if",
+    "fluent"
+  ],
+  "repository": "maximilian-krauss/fluent-switch",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "23.6.0"
+  },
+  "author": "Maximilian Krauß <max@krauss.io>",
+  "license": "MIT",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
