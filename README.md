@@ -13,7 +13,7 @@ npm i fluent-switch
 ### No fallback
 
 ```js
-  Switch
+  FluentSwitch
     .createFrom(error)
     .case(e => e instanceof TimeoutError, e => log.error('timeout', e))
     .case(e => e instanceof ConnectionError, () => e => log.error('connection', e))
@@ -23,7 +23,7 @@ npm i fluent-switch
 ### With fallback
 
 ```js
-  Switch
+  FluentSwitch
     .createFrom(error)
     .case(e => e instanceof TimeoutError, e => log.error('timeout', e))
     .case(e => e instanceof ConnectionError, () => e => log.error('connection', e))
