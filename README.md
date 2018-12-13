@@ -1,5 +1,7 @@
 # FluentSwitch
 
+[![Build Status](https://travis-ci.org/maximilian-krauss/fluent-switch.svg?branch=master)](https://travis-ci.org/maximilian-krauss/fluent-switch)
+
 Better way to do switching.
 
 ## Installation
